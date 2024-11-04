@@ -1,0 +1,83 @@
+.home{
+    min-height: 100vh;
+    /* background-image: linear-gradient(180deg,gold,black); */
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 2rem 5%;
+}
+body{
+    background-image: linear-gradient(180deg, #77c9d45f, #57bc905c), url("../images/profile.JPG");
+    min-height: 100vh;
+    /* background-image: linear-gradient(180deg,gold,black); */
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#loading{
+    background-color: rgb(34, 34, 34);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    height: 100px;
+    width: 100px;
+    border: 2px solid white;
+    border-right: 2px solid rgb(50, 50, 50);
+    border-radius: 50%;
+    animation: rotate 2s infinite ease-in-out;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.hero-logo{
+    max-width: 100px;
+    background-color: rgb(207, 254, 255);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.hero-heading{
+    font-family: var(--heading-font);
+    color: white;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.location{
+    text-align: center;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    gap: 5px;
+}
+.main-para{
+    font-size: 1.1rem;
+    color: white;
+}
+.action-container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 1rem;
+}
+.name{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.box{
+    max-width: 100px;
+}
+
+.socila-media{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
